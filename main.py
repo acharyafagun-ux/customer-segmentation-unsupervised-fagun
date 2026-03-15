@@ -14,7 +14,6 @@ import pandas as pd
 
 def main():
 
-    # -------- Paths --------
     raw_data_path = "data/raw/online_retail.csv"
 
     processed_data_path = "data/processed"
@@ -22,7 +21,6 @@ def main():
     cluster_plots_path = "results/cluster_plots"
     pca_outputs_path = "results/pca_outputs"
 
-    # Create folders if not exist
     os.makedirs(processed_data_path, exist_ok=True)
     os.makedirs(results_metrics_path, exist_ok=True)
     os.makedirs(cluster_plots_path, exist_ok=True)
